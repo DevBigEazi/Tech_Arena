@@ -1,0 +1,169 @@
+/**********************************
+for smaller laptop max-width:1355px
+***********************************/
+@media (max-width: 84em) {
+
+  body{
+    padding:1.5rem;
+  }
+}
+
+/**********************************
+for landscape tablet max-width:1200px
+***********************************/
+
+@media (max-width: 76em) {
+  html {
+    font-size: 55.2%;
+  }
+
+  .applyBtn {
+    font-size: .8rem;
+}
+.stackCon {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.slideContainer {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.frameworksBox {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+}
+
+/**********************************
+for portrait tablet max-width:940px
+***********************************/
+
+@media (max-width: 59em) {
+  .header {
+    font-size: 1.3rem;
+}
+
+.stackHeaderTextCon {
+  padding: 0 20rem;
+}
+
+.partnersLogos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutDetails {
+  padding: 0 10rem;
+
+}
+
+.sectionContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.detailsBox {
+  padding: 0 10rem;
+}
+
+.toLearn {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.frameworksBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.frameworks p {
+  padding: 0 10rem;
+}
+
+
+}
+
+/**********************************
+for small tablet max-width: 704px
+***********************************/
+
+@media (max-width: 44em) {
+  #menu{
+    display: initial;
+  }
+
+.navbar{
+    position: absolute;
+    top: 100%; 
+    left: 0; 
+    right: 0;
+    background: #fff;
+    border-top: .1rem solid rgba(0,0,0,.2);
+    border-bottom: .1rem solid rgba(0,0,0,.2);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.navbar.active{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.navbar a{
+  font-size: 2rem;
+  display: block;
+  margin: 5rem 0;
+  text-align: center;
+}
+
+nav .applyBtn{
+  margin: 0rem 15rem;
+  margin-bottom: 5rem;
+}
+
+.footerCon {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.stackHeaderTextCon {
+  padding: 0 5rem;
+}
+
+.newsLetterBox p {
+  padding: 3rem ;
+  text-align: left;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.aboutDetails {
+  padding: 0 5rem;
+
+}
+
+.slideContainer {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.detailsBox {
+  padding: 0 5rem;
+}
+
+
+}
+
+/**********************************
+for small phone max-width: 550px
+***********************************/
+
+@media (max-width: 35em) {
+  .detailsBox {
+    padding: 0;
+  }
+
+  .toLearn {
+    grid-template-columns: 1fr;
+  }
+  
+}
+
